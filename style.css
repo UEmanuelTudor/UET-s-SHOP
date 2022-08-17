@@ -1,28 +1,57 @@
-#titlu_principal {
+#titlu_principal { 
     text-align: center;
     background-color: lime
 }
 
 .emanuel {
     background-color: blue;
-    color: white;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
+    color: black;
+    border: 2px solid lime;
+    height: 10%;
 }
 
 .ionut {
     background-color: yellow;
-    color: white;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
+    color: black;
+    border: 2px solid lime;
+    height: 10%;
 }
 
 .marius {
     background-color: red;
-    color: white;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
+    color: black;
+    border: 2px solid lime;
+    height: 10%;
+}
+
+.diana {
+    background-color: orange;
+    color: black;
+    border: 2px solid lime;
+    height: 10%;
+}
+
+.andrei {
+    background-color: green;
+    color: black;
+    border: 2px solid lime;
+    height: 10%;
+}
+.catalin {
+    background-color:brown;
+    color: black;
+    border: 2px solid lime;
+    height: 10%;
+}
+.catalina {
+    background-color: pink;
+    color: black;
+    border: 2px solid lime;
+    height: 10%;
+}
+.alex {
+    background-color:aqua;
+    color: black;
+    border: 2px solid lime;
+    height: 10%;
 }
