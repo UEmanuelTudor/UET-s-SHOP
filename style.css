@@ -1,57 +1,45 @@
-#titlu_principal { 
-    text-align: center;
-    background-color: lime
+* {
+    margin: 0;
 }
 
-.emanuel {
-    background-color: blue;
-    color: black;
-    border: 2px solid lime;
-    height: 10%;
+/* Style MENIU */
+.meniu {
+    overflow: hidden;
+    /* border: 1px solid rgb(243, 0, 0); */
+    background-color: #1b9c51;
 }
 
-.ionut {
-    background-color: yellow;
-    color: black;
-    border: 2px solid lime;
-    height: 10%;
+/* SYLE LA BUTOANELE DIN MENIU */
+.meniu button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    /* border: 1px solid rgb(243, 0, 0); */
+    font-size:25px;
+
 }
 
-.marius {
-    background-color: red;
-    color: black;
-    border: 2px solid lime;
-    height: 10%;
+/* HOVER BUTTON MENIU*/
+.meniu button:hover {
+    background-color: black;
+    color: white;
+    /* border: 1px solid rgb(243, 0, 0); */
+
 }
 
-.diana {
-    background-color: orange;
-    color: black;
-    border: 2px solid lime;
-    height: 10%;
+
+.meniu button.active {
+    background-color: black;
+    color: white;
 }
 
-.andrei {
-    background-color: green;
-    color: black;
-    border: 2px solid lime;
-    height: 10%;
-}
-.catalin {
-    background-color:brown;
-    color: black;
-    border: 2px solid lime;
-    height: 10%;
-}
-.catalina {
-    background-color: pink;
-    color: black;
-    border: 2px solid lime;
-    height: 10%;
-}
-.alex {
-    background-color:aqua;
-    color: black;
-    border: 2px solid lime;
-    height: 10%;
+/* Continut */
+.meniucontent {
+    display: none;
+    border-top: none;
 }

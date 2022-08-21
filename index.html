@@ -1,47 +1,91 @@
 <!DOCTYPE html>
+<html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <title>Magazinul nostru</title>
+    <title>UET's SHOP</title>
 </head>
 
 <body>
-    <h1 id="titlu_principal"><mark>Bine ați venit la magazinul nostru</mark></h1>
 
-    <h3>Articole sportive pentru toata lumea</h3>
+    <div class="meniu">
+        <button class="meniulinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
+        <button class="meniulinks" onclick="openCity(event, 'About-us')">About us</button>
+        <button class="meniulinks" onclick="openCity(event, 'articol1')">articol1</button>
+        <button class="meniulinks" onclick="openCity(event, 'articol2')">articol2</button>
+        <button class="meniulinks" onclick="openCity(event, 'articol3')">articol3</button>
+        <button class="meniulinks" onclick="openCity(event, 'articol4')">articol4</button>
+        <button class="meniulinks" onclick="openCity(event, 'articol5')">articol5</button>
 
-    <div class="emanuel">
-        <p>Div-ul lui EMANUEL</p>
     </div>
 
-    <div class="ionut">
-        <p>Div-ul lui IONUT</p>
-
+    <div id="Home" class="meniucontent">
+        <br>
+        <h1><mark>Bine ati venit la magazinul nostru!</mark></h1>
+        <br>
+        <h3>Aici am sa scriem cateva informatii introductive despre magazinul nostru</h3>
     </div>
 
-    <div class="marius">
-        <p>Div-ul lui MARIUS</p>
+    <div id="About-us" class="meniucontent">
+        <br>
+        <h1><mark>Despre noi</mark></h1>
+        <br>
+        <h3>Aici am sa scriem cateva informatii despre magazinul nostru</h3>
     </div>
 
-    <div class="diana">
-        <p>Div-ul lui DIANA</p>
+    <div id="articol1" class="meniucontent">
+        <br>
+        <h1><mark>Despre articol1</mark></h1>
+        <br>
+        <h3>Aici am sa punem tot ce tine de articol1</h3>
     </div>
 
-    <div class="andrei">
-        <p>Div-ul lui ANDREI</p>
+    <div id="articol2" class="meniucontent">
+        <br>
+        <h1><mark>Despre articol2</mark></h1>
+        <br>
+        <h3>Aici am sa punem tot ce tine de articol2</h3>
     </div>
 
-    <div class="catalin">
-        <p>Div-ul lui CATALIN</p>
+    <div id="articol3" class="meniucontent">
+        <br>
+        <h1><mark>Despre articol1</mark></h1>
+        <br>
+        <h3>Aici am sa punem tot ce tine de articol3</h3>
     </div>
 
-    <div class="catalina">
-        <p>Div-ul lui CATALINA</p>
+    <div id="articol4" class="meniucontent">
+        <br>
+        <h1><mark>Despre articol4</mark></h1>
+        <br>
+        <h3>Aici am sa punem tot ce tine de articol4</h3>
     </div>
 
-    <div class="alex">
-        <p>Div-ul lui ALEX</p>
+    <div id="articol5" class="meniucontent">
+        <br>
+        <h1><mark>Despre articol5</mark></h1>
+        <br>
+        <h3>Aici am sa punem tot ce tine de articol5</h3>
     </div>
+
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, meniucontent, meniulinks;
+            meniucontent = document.getElementsByClassName("meniucontent");
+            for (i = 0; i < meniucontent.length; i++) {
+                meniucontent[i].style.display = "none";
+            }
+            meniulinks = document.getElementsByClassName("meniulinks");
+            for (i = 0; i < meniulinks.length; i++) {
+                meniulinks[i].className = meniulinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+    </script>
 
 </body>
 
