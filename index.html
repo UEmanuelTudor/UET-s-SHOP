@@ -12,12 +12,13 @@
     <div class="meniu">
         <button class="meniulinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
         <button class="meniulinks" onclick="openCity(event, 'About-us')">About us</button>
-        <button class="meniulinks" onclick="openCity(event, 'articol1')">articol1</button>
-        <button class="meniulinks" onclick="openCity(event, 'articol2')">articol2</button>
-        <button class="meniulinks" onclick="openCity(event, 'articol3')">articol3</button>
-        <button class="meniulinks" onclick="openCity(event, 'articol4')">articol4</button>
-        <button class="meniulinks" onclick="openCity(event, 'articol5')">articol5</button>
-
+        <button class="meniulinks" onclick="openCity(event, 'ghete')">Ghete de Fotbal</button>
+        <button class="meniulinks" onclick="openCity(event, 'tricouri')">Tricouri</button>
+        <button class="meniulinks" onclick="openCity(event, 'hanorace')">Hanorace</button>
+        <button class="meniulinks" onclick="openCity(event, 'accesorii')">Accesorii</button>
+        <button class="meniulinks" onclick="openCity(event, 'mingi')">Mingi de Fotbal</button>
+        <button class="meniulinks" onclick="openCity(event, 'articol-andrei')">Articol-Andrei</button>
+        <button class="meniulinks" onclick="openCity(event, 'articol-catalin')">Articol-Catalin</button>
     </div>
 
     <div id="Home" class="meniucontent">
@@ -34,58 +35,63 @@
         <h3>Aici am sa scriem cateva informatii despre magazinul nostru</h3>
     </div>
 
-    <div id="articol1" class="meniucontent">
+    <div id="ghete" class="meniucontent">
+        <!-- In div-ul acesta vei adauga tot ce doresti -->
         <br>
-        <h1><mark>Despre articol1</mark></h1>
+        <h1><mark>Aici este pagina de care se ocupa IONUT</mark></h1>
         <br>
-        <h3>Aici am sa punem tot ce tine de articol1</h3>
+        <h3>Spoor la treaba !</h3>
     </div>
 
-    <div id="articol2" class="meniucontent">
+    <div id="tricouri" class="meniucontent">
+        <!-- In div-ul acesta vei adauga tot ce doresti -->
         <br>
-        <h1><mark>Despre articol2</mark></h1>
+        <h1><mark>Aici este pagina de care se ocupa MARIUS</mark></h1>
         <br>
-        <h3>Aici am sa punem tot ce tine de articol2</h3>
+        <h3>Spoor la treaba !</h3>
     </div>
 
-    <div id="articol3" class="meniucontent">
+    <div id="hanorace" class="meniucontent">
+        <!-- In div-ul acesta vei adauga tot ce doresti -->
         <br>
-        <h1><mark>Despre articol1</mark></h1>
+        <h1><mark>Aici este pagina de care se ocupa DIANA</mark></h1>
         <br>
-        <h3>Aici am sa punem tot ce tine de articol3</h3>
+        <h3>Spoor la treaba !</h3>
     </div>
 
-    <div id="articol4" class="meniucontent">
+    <div id="accesorii" class="meniucontent">
+        <!-- In div-ul acesta vei adauga tot ce doresti -->
         <br>
-        <h1><mark>Despre articol4</mark></h1>
+        <h1><mark>Aici este pagina de care se ocupa CATALINA</mark></h1>
         <br>
-        <h3>Aici am sa punem tot ce tine de articol4</h3>
+        <h3>Spoor la treaba !</h3>
     </div>
 
-    <div id="articol5" class="meniucontent">
+    <div id="mingi" class="meniucontent">
+        <!-- In div-ul acesta vei adauga tot ce doresti -->
         <br>
-        <h1><mark>Despre articol5</mark></h1>
+        <h1><mark>Aici este pagina de care se ocupa EMANUEL</mark></h1>
         <br>
-        <h3>Aici am sa punem tot ce tine de articol5</h3>
+        <h3>Spoor la treaba !</h3>
     </div>
 
+    <div id="articol-andrei" class="meniucontent">
+        <!-- In div-ul acesta vei adauga tot ce doresti -->
+        <br>
+        <h1><mark>Aici este pagina de care se ocupa ANDREI</mark></h1>
+        <br>
+        <h3>Spoor la treaba !</h3>
+    </div>
 
-    <script>
-        function openCity(evt, cityName) {
-            var i, meniucontent, meniulinks;
-            meniucontent = document.getElementsByClassName("meniucontent");
-            for (i = 0; i < meniucontent.length; i++) {
-                meniucontent[i].style.display = "none";
-            }
-            meniulinks = document.getElementsByClassName("meniulinks");
-            for (i = 0; i < meniulinks.length; i++) {
-                meniulinks[i].className = meniulinks[i].className.replace(" active", "");
-            }
-            document.getElementById(cityName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-        document.getElementById("defaultOpen").click();
-    </script>
+    <div id="articol-catalin" class="meniucontent">
+        <!-- In div-ul acesta vei adauga tot ce doresti -->
+        <br>
+        <h1><mark>Aici este pagina de care se ocupa CATALIN</mark></h1>
+        <br>
+        <h3>Spoor la treaba !</h3>
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 
