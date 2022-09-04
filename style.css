@@ -63,10 +63,14 @@
 } */
 #hanorac1{
     margin: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 #hanorac2{
     margin: 30px;
-    float:top center;
+    display: flex;
+    justify-content: center;
 }
 .galerie{
     margin:5px;
@@ -94,7 +98,7 @@
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
-.descriere{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+
+#hanorace{
+    background-color: lightgreen;
 }

@@ -12,3 +12,11 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
 }
 document.getElementById("defaultOpen").click();
+
+//hanorace
+const btn=document.getElementById('btn');
+
+btn.addEventListener('click',function onClick(){
+    btn.style.backgroundColor='darkviolet';
+    btn.style.color='white';
+});
