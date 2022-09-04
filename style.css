@@ -61,3 +61,40 @@
 }
 /* .logo{
 } */
+#hanorac1{
+    margin: 30px;
+}
+#hanorac2{
+    margin: 30px;
+    float:top center;
+}
+.galerie{
+    margin:5px;
+    width: 200px;
+    height:auto;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(183, 183, 183);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.descriere{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
