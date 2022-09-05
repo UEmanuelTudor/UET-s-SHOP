@@ -45,7 +45,7 @@
 
 #Home{  
     /* background-color: aquamarine; */
-    background-image: url("bg.jpg");
+    background-image: url("./imagini/bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 94vh;
@@ -107,7 +107,7 @@
     position: relative;
     width: 100vw;
     height: 94vh;
-    background-image: url(gazon.webp);
+    background-image: url(./imagini/gazon.webp);
     opacity: 0.9;
 }
 #continut-mingi{
