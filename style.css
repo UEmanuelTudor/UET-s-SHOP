@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+/* Style MENIU */
+.meniu {
+    overflow: hidden;
+    /* border: 1px solid rgb(243, 0, 0); */
+    background-color: #1b9c51;
+    height: 56px;
+}
+
+/* SYLE LA BUTOANELE DIN MENIU */
+.meniu button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    /* border: 1px solid rgb(243, 0, 0); */
+    font-size:25px;
+
+}
+
+/* HOVER BUTTON MENIU*/
+.meniu button:hover {
+    background-color: black;
+    color: white;
+    /* border: 1px solid rgb(243, 0, 0); */
+
+}
+
+
+.meniu button.active {
+    background-color: black;
+    color: white;
+}
+
+/* Continut */
+/* .meniucontent {
+} */
+
+#Home{  
+    /* background-color: aquamarine; */
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 94vh;
+    width: 100%;
+    color:white;
+}
+#titlu-principal{
+    text-align: center;
+    margin-top: 5vh;
+    text-decoration:overline;
+    /* text-decoration: underline overline dotted #1b9c51; */
+    text-decoration-color:#1b9c51;
+}
+/* .logo{
+} */
