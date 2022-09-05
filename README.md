@@ -1,4 +1,4 @@
-# Exemplu_1_HTML -> "Magazinul de articole sportive" 
+# UET's SHOP -> "Magazinul de articole sportive" 
 <b>Procesul prin care LUCRAM ÎMPREUNA LA ACEST PROIECT.</b><br>
 <hr>
 ⚠️ Fiecare dintre voi ,<strong> de fiecare dată </strong> când dorește să lucrezeze, trebuie să dea synchronize/update la repository-ul lui ("forked-uit" de la mine). ⚠️<br>
