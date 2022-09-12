@@ -275,3 +275,19 @@ nav{
     transition: 0.3s;
    
 }
+/*Visan Andrei*/
+.branduri
+{
+    text-align: center;
+    display: block;
+}
+.brd
+{
+    margin-bottom: 10px;
+}
+#pantaloni
+{
+    background-image: url("./imagini/fundalvisan.jpg");
+}
+    
+  
