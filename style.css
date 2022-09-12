@@ -61,6 +61,8 @@
 }
 /* .logo{
 } */
+
+/*hanorace*/
 #hanorac1{
     margin: 30px;
     text-align: center;
@@ -68,6 +70,11 @@
     justify-content: center;
 }
 #hanorac2{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+#hanorac3{
     margin: 30px;
     display: flex;
     justify-content: center;
