@@ -355,3 +355,20 @@ body {
     background-repeat: no-repeat;
     background-size: 1600px;
 }
+=======
+/*Visan Andrei*/
+.branduri
+{
+    text-align: center;
+    display: block;
+}
+.brd
+{
+    margin-bottom: 10px;
+}
+#pantaloni
+{
+    background-image: url("./imagini/fundalvisan.jpg");
+}
+    
+  
