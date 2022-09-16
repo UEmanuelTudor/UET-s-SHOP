@@ -218,7 +218,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(194, 249, 112, 0.6), rgba(194, 249, 112, 0.6)), url(C:/Users/drind/source/repos/Exemplu_1_HTM/imagini/sport.jpg);
+    background-image: linear-gradient(rgba(194, 249, 112, 0.6), rgba(194, 249, 112, 0.6)), url("./imagini/sport.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -342,15 +342,14 @@ nav {
     clear: both;
     display: table;
 }
-ghfghhg
 
 
 
-body {
+/* body {
     background-image: url('./imagini/stadion.jpg');
     background-repeat: no-repeat;
     background-size: 1600px;
-}
+} */
 
 
 
