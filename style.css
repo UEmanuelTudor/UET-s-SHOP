@@ -327,26 +327,34 @@ nav {
 
 /* ionut
 */
+* {
+    box-sizing: border-box;
+}
 
-img {
+.imagini {
+    float: left;
+    width: 33%;
+    padding: 100px;
+}
+
+.row::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+
+
+/*Visan Andrei*/
+.branduri {
+    text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.gheteadidas {
-    font-size: 1.5em;
+.brd {
+    margin-bottom: 10px;
 }
 
-#adidas {
-    text-align: center;
+#pantaloni {
+    background-image: url("./imagini/fundalvisan.jpg");
 }
-
-#puma {
-    text-align: center;
-}
-
-.ghetepuma {
-    font-size: 1.5em;
-}
-
