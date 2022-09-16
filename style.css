@@ -327,48 +327,35 @@ nav {
 
 /* ionut
 */
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+* {
+    box-sizing: border-box;
 }
 
-.gheteadidas {
-    font-size: 1.5em;
+.imagini {
+    float: left;
+    width: 33%;
+    padding: 100px;
 }
 
-#adidas {
-    text-align: center;
+.row::after {
+    content: " ";
+    clear: both;
+    display: table;
 }
+ghfghhg
 
-#puma {
-    text-align: center;
-}
 
-.ghetepuma {
-    font-size: 1.5em;
-}
 
-body {
-    background-image: url('./imagini/stadion.jpg');
-    background-repeat: no-repeat;
-    background-size: 1600px;
-}
-=======
 /*Visan Andrei*/
-.branduri
-{
+.branduri {
     text-align: center;
     display: block;
 }
-.brd
-{
+
+.brd {
     margin-bottom: 10px;
 }
-#pantaloni
-{
+
+#pantaloni {
     background-image: url("./imagini/fundalvisan.jpg");
 }
-    
-  
