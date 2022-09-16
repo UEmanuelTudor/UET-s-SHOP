@@ -346,6 +346,17 @@ ghfghhg
 
 
 
+<<<<<<< Updated upstream
+=======
+body {
+    background-image: url('./imagini/stadion.jpg');
+    background-repeat: no-repeat;
+    background-size: 1600px;
+}
+
+
+
+>>>>>>> Stashed changes
 /*Visan Andrei*/
 .branduri {
     text-align: center;
