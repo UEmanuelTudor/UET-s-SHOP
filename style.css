@@ -52,7 +52,11 @@
     width: 100%;
     color: white;
 }
-
+#logoo{
+    /* float:right; */
+    position:absolute;
+    right:50px;
+}
 #titlu-principal {
     text-align: center;
     margin-top: 5vh;
